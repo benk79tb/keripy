@@ -1,5 +1,5 @@
 # Builder layer
-FROM python:3.10-alpine as builder
+FROM python:3.10.13-alpine3.18 as builder
 
 # Install compilation dependencies
 RUN apk --no-cache add \
